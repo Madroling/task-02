@@ -1,0 +1,244 @@
+body{
+	font-family: verdana;
+	margin: 0px;
+}
+ul{
+	/*margin: 0px 1%;*/
+	padding: 0;
+}
+.back{
+	background-image: url(D://E/Web/main/Just_do_it/Task_02/img/back.png);
+	background-position: center top;
+	background-size: cover;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1em;
+	padding: 0px 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu ul{
+	/*display: inline-flex;*/
+	text-align: center;
+}
+.menu li{
+	
+	list-style-type: none;
+	padding: 10px 15px;
+	display: inline-flex;
+}
+
+.menu li a:hover{
+	color: #ffe72e;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+.right-menu{padding-right: 3%;}
+.left-menu{padding-left: 3%;}
+
+.logo {	
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	margin: 0;
+}
+.logo h2{
+	font-size: 3em;
+	margin: 0;
+}
+.home-line{
+	width: 150px;
+	height: 5px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.soc{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px; 
+
+}
+.soc img{
+	width: 70px;
+	height: 70px;
+	padding: 0 10px;
+}
+
+.red{
+	/*background-color: red;*/
+}
+
+.text-box-h2{
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+	margin-top: 150px;
+}
+.text-box-p{
+	font-size: 1.5em;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0 150px;
+}
+.button button{
+	background-color: #fba419;
+	border: 0px;
+	border-radius: 30px;
+	height: 50px;
+	width: 180px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #fff;
+}
+.button button:hover{
+	background-color: #000;	
+	color: #fba419;
+	transition: 0.5s;
+}
+
+.about-us{
+	background-image: url(D://E/Web/main/Just_do_it/Task_02/img/about-back.png);
+	background-position: center top;
+	background-size: cover;
+}
+.about-text{
+	width: 25%;
+	margin: 40px 10%;
+}
+.about-text h2:first-child{
+	color: #fc9e20;
+}
+.about-text h2{
+	font-size: 2.5em;
+	margin: 8px 0;
+}
+.about-text p:first-child{
+	font-weight: 600;
+}
+.about-line{
+	width: 150px;
+	height: 5px;
+	background-color: #fc9e20;
+	margin: 25px 0 30px;
+}
+.about-button div{
+	padding: 30px 0 50px;
+	display: block;
+}
+
+.team{
+	display: flex;
+	min-height: 100vh;
+	background-color: #2f2f2f
+}
+.team h2:nth-child(2n){color: #fff;}
+.white-text{color: #fff;}
+.grey-text{color: #ccc;}
+/*.image-box div{
+	display: flex;
+	justify-content: space-around;
+	width: 55vw;
+}*/
+.image-box image{
+
+}
+.team-photo{
+	width: 55vw;
+	display: flex;	
+	justify-content: space-around;}
+.team-photo div{
+	background: url(D://E/Web/main/Just_do_it/Task_02/img/751329.png);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	margin-top: 50px;
+	filter: saturate(2.75);
+}
+.photo-primitka{
+	display: flex;
+	justify-content: space-around;
+}
+.photo-primitka p:first-child{
+	color: #fc9e20;
+}
+.photo-primitka p{
+	font-size: 1.3em;
+	text-align: center;
+	color: #ccc;
+}
+
+.work{
+	display: flex;
+	margin-top: 60px
+}
+.work-img-box{
+	display: flex;
+	/*margin-left:20px*/
+}
+.work-img{
+	/*margin-left:20px;*/
+	
+}
+.work-img div{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+}
+#m-20{margin-right: 20px}
+
+.choose {background-color: #2f2f2f}
+.choose-img img{
+	/*width: 40vw;*/
+	height: 85vh;
+	margin-top: 60px;
+}
+
+.choose-text-box{
+	margin-left: 90px;
+}
+.choose-text-box img{
+	width: 100px;
+	height: 100px;
+	margin: auto 0;
+}
+
+.flex-box{
+	display: flex;
+}
+
+.white-title:first-child{
+	margin-top: 50px;
+	color: #fc9e20;
+	margin-bottom: 0px;
+}
+
+.white-title h2{
+	font-size: 2.5em;
+	margin-bottom: 20px
+}
+
+.choose-text{
+	width: 30vw;
+	margin-left: 65px;
+}
+.choose-text h2{
+	color: #fff;
+	font-size: 1.3em;
+}
+.choose-text p{
+	color: #ccc;
+}
