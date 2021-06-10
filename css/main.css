@@ -7,7 +7,7 @@ ul{
 	padding: 0;
 }
 .back{
-	background-image: url(D://E/Web/main/Just_do_it/Task_02/img/back.png);
+	background-image: url(../img/back.png);
 	background-position: center top;
 	background-size: cover;
 }
@@ -111,7 +111,7 @@ ul{
 }
 
 .about-us{
-	background-image: url(D://E/Web/main/Just_do_it/Task_02/img/about-back.png);
+	background-image: url(../img/about-back.png);
 	background-position: center top;
 	background-size: cover;
 }
@@ -161,7 +161,7 @@ ul{
 	display: flex;	
 	justify-content: space-around;}
 .team-photo div{
-	background: url(D://E/Web/main/Just_do_it/Task_02/img/751329.png);
+	background: url(../img/751329.png);
 	background-size: cover;
 	height: 200px;
 	width: 100%;
